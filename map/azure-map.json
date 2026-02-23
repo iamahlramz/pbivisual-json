@@ -1,0 +1,26 @@
+{
+  "name": "Azure Map — Reference Theme",
+  "visualStyles": {
+    "azureMap": {
+      "*": {
+        "general": [{ "responsive": true, "keepLayerOrder": true }],
+        "legend": [{ "show": true, "position": "TopRight", "showTitle": false, "labelColor": { "solid": { "color": "#605E5C" } }, "fontFamily": "Segoe UI", "fontSize": 9 }],
+        "dataPoint": [{
+          "defaultColor": { "solid": { "color": "#118DFF" } },
+          "showAllDataPoints": true
+        }],
+        "categoryLabels": [{
+          "show": true,
+          "color": { "solid": { "color": "#252423" } },
+          "fontSize": 9,
+          "fontFamily": "Segoe UI"
+        }],
+        "bubbles": [{ "bubbleSize": 30 }],
+        "mapControls": [{ "autoZoom": true }],
+        "title": [{ "show": false, "fontColor": { "solid": { "color": "#252423" } }, "background": { "solid": { "color": "#FFFFFF" } }, "alignment": "center", "fontSize": 12, "fontFamily": "DIN", "bold": true }],
+        "background": [{ "show": false, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "color": { "solid": { "color": "#808080" } }, "radius": 0 }]
+      }
+    }
+  }
+}

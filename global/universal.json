@@ -1,0 +1,119 @@
+{
+  "name": "Universal Defaults — Reference Theme",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "general": [
+          {
+            "responsive": true,
+            "keepLayerOrder": true
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#252423" } },
+            "background": { "solid": { "color": "#FFFFFF" } },
+            "alignment": "center",
+            "fontSize": 12,
+            "fontFamily": "DIN",
+            "bold": true,
+            "italic": false,
+            "underline": false
+          }
+        ],
+        "subTitle": [
+          {
+            "show": false,
+            "fontColor": { "solid": { "color": "#605E5C" } },
+            "fontSize": 10,
+            "fontFamily": "DIN",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "alignment": "center"
+          }
+        ],
+        "divider": [
+          {
+            "show": false,
+            "color": { "solid": { "color": "#808080" } },
+            "style": "solid",
+            "width": 1
+          }
+        ],
+        "spacing": [
+          {
+            "customizeSpacing": false,
+            "verticalSpacing": 4,
+            "horizontalSpacing": 4
+          }
+        ],
+        "background": [
+          {
+            "show": false,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": false,
+            "color": { "solid": { "color": "#808080" } },
+            "radius": 0
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false,
+            "color": { "solid": { "color": "#252423" } },
+            "position": "Outer",
+            "preset": "BottomRight",
+            "transparency": 60,
+            "offset": 2,
+            "angle": 315,
+            "blur": 5
+          }
+        ],
+        "visualTooltip": [
+          {
+            "type": "Default"
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": true,
+            "background": { "solid": { "color": "#FFFFFF" } },
+            "border": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0,
+            "foreground": { "solid": { "color": "#605E5C" } },
+            "iconColor": { "solid": { "color": "#605E5C" } }
+          }
+        ],
+        "visualHeaderTooltip": [
+          {
+            "type": "Default"
+          }
+        ],
+        "padding": [
+          {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
+        ],
+        "lockAspect": [
+          {
+            "show": false
+          }
+        ],
+        "wordWrap": [
+          {
+            "show": true
+          }
+        ]
+      }
+    }
+  }
+}

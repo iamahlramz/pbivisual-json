@@ -1,0 +1,33 @@
+{
+  "name": "KPI — Reference Theme",
+  "visualStyles": {
+    "kpi": {
+      "*": {
+        "general": [{ "responsive": true, "keepLayerOrder": true }],
+        "indicator": [{
+          "indicatorDisplayUnits": "0",
+          "indicatorPrecision": 0,
+          "fontSize": 30,
+          "fontFamily": "DIN"
+        }],
+        "trendline": [{
+          "show": true
+        }],
+        "goals": [{
+          "show": true,
+          "fontSize": 10,
+          "fontFamily": "Segoe UI"
+        }],
+        "status": [{
+          "direction": "positive",
+          "goodColor": { "solid": { "color": "#1AAB40" } },
+          "neutralColor": { "solid": { "color": "#D9B300" } },
+          "badColor": { "solid": { "color": "#D64554" } }
+        }],
+        "title": [{ "show": false, "fontColor": { "solid": { "color": "#252423" } }, "background": { "solid": { "color": "#FFFFFF" } }, "alignment": "center", "fontSize": 12, "fontFamily": "DIN", "bold": true }],
+        "background": [{ "show": false, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "color": { "solid": { "color": "#808080" } }, "radius": 0 }]
+      }
+    }
+  }
+}

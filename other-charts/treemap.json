@@ -1,0 +1,17 @@
+{
+  "name": "Treemap — Reference Theme",
+  "visualStyles": {
+    "treemap": {
+      "*": {
+        "general": [{ "responsive": true, "keepLayerOrder": true }],
+        "legend": [{ "show": true, "position": "Top", "showTitle": false, "labelColor": { "solid": { "color": "#605E5C" } }, "fontFamily": "Segoe UI", "fontSize": 9 }],
+        "dataPoint": [{ "showAllDataPoints": true }],
+        "labels": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "fontFamily": "Segoe UI Semibold", "fontSize": 10, "labelDisplayUnits": "0", "labelPrecision": 1 }],
+        "categoryLabels": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "fontFamily": "Segoe UI", "fontSize": 9 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#252423" } }, "background": { "solid": { "color": "#FFFFFF" } }, "alignment": "center", "fontSize": 12, "fontFamily": "DIN", "bold": true }],
+        "background": [{ "show": false, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "color": { "solid": { "color": "#808080" } }, "radius": 0 }]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Button — Reference Theme",
+  "visualStyles": {
+    "actionButton": {
+      "*": {
+        "general": [{ "responsive": true, "keepLayerOrder": true }],
+        "icon": [{
+          "show": false,
+          "shapeType": "RightArrow",
+          "padding": 5,
+          "lineColor": { "solid": { "color": "#605E5C" } },
+          "fillColor": { "solid": { "color": "transparent" } },
+          "placement": "Left"
+        }],
+        "text": [{
+          "show": true,
+          "fontColor": { "solid": { "color": "#605E5C" } },
+          "fontSize": 12,
+          "fontFamily": "Segoe UI",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "alignment": "Center"
+        }],
+        "fill": [{
+          "show": true,
+          "fillColor": { "solid": { "color": "#F2F2F2" } },
+          "transparency": 0
+        }],
+        "outline": [{
+          "show": true,
+          "outlineColor": { "solid": { "color": "#808080" } },
+          "weight": 1,
+          "roundEdge": 5
+        }],
+        "hoverState": [{
+          "show": true
+        }],
+        "title": [{ "show": false }],
+        "background": [{ "show": false, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "color": { "solid": { "color": "#808080" } }, "radius": 0 }]
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Key Influencers — Reference Theme",
+  "visualStyles": {
+    "keyDriversVisual": {
+      "*": {
+        "general": [{ "responsive": true, "keepLayerOrder": true }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#252423" } }, "background": { "solid": { "color": "#FFFFFF" } }, "alignment": "center", "fontSize": 12, "fontFamily": "DIN", "bold": true }],
+        "background": [{ "show": false, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "color": { "solid": { "color": "#808080" } }, "radius": 0 }]
+      }
+    }
+  }
+}

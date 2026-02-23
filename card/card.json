@@ -1,0 +1,27 @@
+{
+  "name": "Card (Legacy) — Reference Theme",
+  "visualStyles": {
+    "card": {
+      "*": {
+        "general": [{ "responsive": true, "keepLayerOrder": true }],
+        "dataLabel": [{
+          "color": { "solid": { "color": "#252423" } },
+          "fontSize": 45,
+          "fontFamily": "DIN",
+          "labelDisplayUnits": "0",
+          "labelPrecision": 0
+        }],
+        "categoryLabel": [{
+          "show": true,
+          "color": { "solid": { "color": "#A3A3A3" } },
+          "fontSize": 12,
+          "fontFamily": "DIN"
+        }],
+        "wordWrap": [{ "show": true }],
+        "title": [{ "show": false, "fontColor": { "solid": { "color": "#252423" } }, "background": { "solid": { "color": "#FFFFFF" } }, "alignment": "center", "fontSize": 12, "fontFamily": "DIN", "bold": true }],
+        "background": [{ "show": false, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "color": { "solid": { "color": "#808080" } }, "radius": 0 }]
+      }
+    }
+  }
+}

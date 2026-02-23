@@ -1,0 +1,24 @@
+{
+  "name": "Waterfall Chart — Reference Theme",
+  "visualStyles": {
+    "waterfallChart": {
+      "*": {
+        "general": [{ "responsive": true, "keepLayerOrder": true }],
+        "legend": [{ "show": true, "position": "Top", "showTitle": false, "labelColor": { "solid": { "color": "#605E5C" } }, "fontFamily": "Segoe UI", "fontSize": 9 }],
+        "categoryAxis": [{ "show": true, "position": "Bottom", "labelColor": { "solid": { "color": "#605E5C" } }, "fontFamily": "Segoe UI", "fontSize": 9, "showAxisTitle": false, "gridlineShow": false }],
+        "valueAxis": [{ "show": true, "position": "Left", "labelColor": { "solid": { "color": "#605E5C" } }, "fontFamily": "Segoe UI", "fontSize": 9, "showAxisTitle": false, "gridlineShow": true, "gridlineColor": { "solid": { "color": "#E6E6E6" } }, "gridlineStyle": "solid", "gridlineThickness": 1 }],
+        "labels": [{ "show": false, "color": { "solid": { "color": "#605E5C" } }, "fontFamily": "Segoe UI", "fontSize": 9, "labelDisplayUnits": "0", "labelPrecision": 1 }],
+        "sentimentColors": [{
+          "increaseFill": { "solid": { "color": "#1AAB40" } },
+          "decreaseFill": { "solid": { "color": "#D64554" } },
+          "totalFill": { "solid": { "color": "#118DFF" } }
+        }],
+        "breakdown": [{ "show": true }],
+        "plotArea": [{ "transparency": 0 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#252423" } }, "background": { "solid": { "color": "#FFFFFF" } }, "alignment": "center", "fontSize": 12, "fontFamily": "DIN", "bold": true }],
+        "background": [{ "show": false, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "color": { "solid": { "color": "#808080" } }, "radius": 0 }]
+      }
+    }
+  }
+}

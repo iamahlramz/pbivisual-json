@@ -1,0 +1,25 @@
+{
+  "name": "Page Navigator — Reference Theme",
+  "visualStyles": {
+    "pageNavigator": {
+      "*": {
+        "general": [{ "responsive": true, "keepLayerOrder": true }],
+        "buttons": [{
+          "fontColor": { "solid": { "color": "#605E5C" } },
+          "selectedColor": { "solid": { "color": "#118DFF" } },
+          "background": { "solid": { "color": "#F2F2F2" } },
+          "fontSize": 10,
+          "fontFamily": "Segoe UI",
+          "outline": "None",
+          "outlineColor": { "solid": { "color": "#808080" } },
+          "outlineWeight": 1,
+          "roundEdge": 5,
+          "padding": 5
+        }],
+        "title": [{ "show": false }],
+        "background": [{ "show": false, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "color": { "solid": { "color": "#808080" } }, "radius": 0 }]
+      }
+    }
+  }
+}

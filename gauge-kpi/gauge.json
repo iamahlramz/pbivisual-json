@@ -1,0 +1,35 @@
+{
+  "name": "Gauge — Reference Theme",
+  "visualStyles": {
+    "gauge": {
+      "*": {
+        "general": [{ "responsive": true, "keepLayerOrder": true }],
+        "axis": [{ "min": 0, "max": 100 }],
+        "target": [{
+          "show": true,
+          "color": { "solid": { "color": "#252423" } },
+          "fontSize": 12,
+          "fontFamily": "Segoe UI"
+        }],
+        "gaugeAxis": [{
+          "fill": { "solid": { "color": "#118DFF" } }
+        }],
+        "calloutValue": [{
+          "show": true,
+          "color": { "solid": { "color": "#252423" } },
+          "fontSize": 30,
+          "fontFamily": "DIN",
+          "labelDisplayUnits": "0",
+          "labelPrecision": 0
+        }],
+        "dataPoint": [{
+          "fill": { "solid": { "color": "#118DFF" } },
+          "target": { "solid": { "color": "#252423" } }
+        }],
+        "title": [{ "show": false, "fontColor": { "solid": { "color": "#252423" } }, "background": { "solid": { "color": "#FFFFFF" } }, "alignment": "center", "fontSize": 12, "fontFamily": "DIN", "bold": true }],
+        "background": [{ "show": false, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "color": { "solid": { "color": "#808080" } }, "radius": 0 }]
+      }
+    }
+  }
+}

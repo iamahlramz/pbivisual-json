@@ -1,0 +1,38 @@
+{
+  "name": "Multi-row Card — Reference Theme",
+  "visualStyles": {
+    "multiRowCard": {
+      "*": {
+        "general": [{ "responsive": true, "keepLayerOrder": true }],
+        "dataLabels": [{
+          "color": { "solid": { "color": "#252423" } },
+          "fontSize": 14,
+          "fontFamily": "DIN"
+        }],
+        "categoryLabels": [{
+          "show": true,
+          "color": { "solid": { "color": "#A3A3A3" } },
+          "fontSize": 10,
+          "fontFamily": "DIN"
+        }],
+        "cardTitle": [{
+          "color": { "solid": { "color": "#605E5C" } },
+          "fontSize": 12,
+          "fontFamily": "Segoe UI Semibold"
+        }],
+        "card": [{
+          "outline": "BottomOnly",
+          "outlineColor": { "solid": { "color": "#E6E6E6" } },
+          "outlineWeight": 1,
+          "barShow": false,
+          "barColor": { "solid": { "color": "#118DFF" } },
+          "barWeight": 4,
+          "cardPadding": 10
+        }],
+        "title": [{ "show": false, "fontColor": { "solid": { "color": "#252423" } }, "background": { "solid": { "color": "#FFFFFF" } }, "alignment": "center", "fontSize": 12, "fontFamily": "DIN", "bold": true }],
+        "background": [{ "show": false, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "color": { "solid": { "color": "#808080" } }, "radius": 0 }]
+      }
+    }
+  }
+}

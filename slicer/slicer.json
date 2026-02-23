@@ -1,0 +1,33 @@
+{
+  "name": "Slicer (Legacy) — Reference Theme",
+  "visualStyles": {
+    "slicer": {
+      "*": {
+        "general": [{ "responsive": true, "keepLayerOrder": true, "orientation": "vertical" }],
+        "data": [{ "mode": "Basic" }],
+        "selection": [{ "singleSelect": false, "strictSingleSelect": false, "showCheckboxes": false }],
+        "header": [{
+          "show": true,
+          "fontColor": { "solid": { "color": "#252423" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "outline": "BottomOnly",
+          "textSize": 10,
+          "fontFamily": "Segoe UI Semibold"
+        }],
+        "items": [{
+          "fontColor": { "solid": { "color": "#605E5C" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "outline": "None",
+          "textSize": 10,
+          "fontFamily": "Segoe UI"
+        }],
+        "slider": [{
+          "color": { "solid": { "color": "#118DFF" } }
+        }],
+        "title": [{ "show": false, "fontColor": { "solid": { "color": "#252423" } }, "background": { "solid": { "color": "#FFFFFF" } }, "alignment": "center", "fontSize": 12, "fontFamily": "DIN", "bold": true }],
+        "background": [{ "show": false, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "color": { "solid": { "color": "#808080" } }, "radius": 0 }]
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Line & Stacked Column Combo — Reference Theme",
+  "visualStyles": {
+    "lineStackedColumnComboChart": {
+      "*": {
+        "general": [{ "responsive": true, "keepLayerOrder": true }],
+        "legend": [{ "show": true, "position": "Top", "showTitle": false, "labelColor": { "solid": { "color": "#605E5C" } }, "fontFamily": "Segoe UI", "fontSize": 9 }],
+        "categoryAxis": [{ "show": true, "position": "Bottom", "axisType": "categorical", "labelColor": { "solid": { "color": "#605E5C" } }, "fontFamily": "Segoe UI", "fontSize": 9, "showAxisTitle": false, "gridlineShow": false, "gridlineColor": { "solid": { "color": "#E6E6E6" } }, "gridlineStyle": "solid", "gridlineThickness": 1 }],
+        "valueAxis": [{ "show": true, "position": "Left", "labelColor": { "solid": { "color": "#605E5C" } }, "fontFamily": "Segoe UI", "fontSize": 9, "labelDisplayUnits": "0", "showAxisTitle": false, "gridlineShow": true, "gridlineColor": { "solid": { "color": "#E6E6E6" } }, "gridlineStyle": "solid", "gridlineThickness": 1, "start": null, "end": null }],
+        "y2Axis": [{ "show": true, "position": "Right", "labelColor": { "solid": { "color": "#605E5C" } }, "fontFamily": "Segoe UI", "fontSize": 9, "labelDisplayUnits": "0", "showAxisTitle": false, "gridlineShow": false, "gridlineColor": { "solid": { "color": "#E6E6E6" } }, "gridlineStyle": "dashed", "gridlineThickness": 1, "start": null, "end": null }],
+        "dataPoint": [{ "showAllDataPoints": true }],
+        "labels": [{ "show": false, "color": { "solid": { "color": "#605E5C" } }, "fontFamily": "Segoe UI", "fontSize": 9, "labelDisplayUnits": "0", "labelPrecision": 1 }],
+        "lineStyles": [{ "strokeWidth": 2, "lineStyle": "solid", "showMarker": false, "markerSize": 5 }],
+        "plotArea": [{ "transparency": 0 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#252423" } }, "background": { "solid": { "color": "#FFFFFF" } }, "alignment": "center", "fontSize": 12, "fontFamily": "DIN", "bold": true }],
+        "background": [{ "show": false, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "color": { "solid": { "color": "#808080" } }, "radius": 0 }]
+      }
+    }
+  }
+}

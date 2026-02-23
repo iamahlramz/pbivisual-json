@@ -1,0 +1,23 @@
+{
+  "name": "Decomposition Tree — Reference Theme",
+  "visualStyles": {
+    "decompositionTreeVisual": {
+      "*": {
+        "general": [{ "responsive": true, "keepLayerOrder": true }],
+        "tree": [{
+          "fontSize": 12,
+          "fontFamily": "Segoe UI",
+          "fontColor": { "solid": { "color": "#252423" } }
+        }],
+        "dataBar": [{
+          "color": { "solid": { "color": "#118DFF" } },
+          "fontSize": 10,
+          "fontFamily": "Segoe UI"
+        }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#252423" } }, "background": { "solid": { "color": "#FFFFFF" } }, "alignment": "center", "fontSize": 12, "fontFamily": "DIN", "bold": true }],
+        "background": [{ "show": false, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "color": { "solid": { "color": "#808080" } }, "radius": 0 }]
+      }
+    }
+  }
+}

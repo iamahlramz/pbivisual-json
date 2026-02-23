@@ -1,0 +1,18 @@
+{
+  "name": "Smart Narrative — Reference Theme",
+  "visualStyles": {
+    "aiNarratives": {
+      "*": {
+        "general": [{ "responsive": true, "keepLayerOrder": true }],
+        "content": [{
+          "fontColor": { "solid": { "color": "#252423" } },
+          "fontSize": 12,
+          "fontFamily": "Segoe UI"
+        }],
+        "title": [{ "show": false, "fontColor": { "solid": { "color": "#252423" } }, "background": { "solid": { "color": "#FFFFFF" } }, "alignment": "center", "fontSize": 12, "fontFamily": "DIN", "bold": true }],
+        "background": [{ "show": false, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "color": { "solid": { "color": "#808080" } }, "radius": 0 }]
+      }
+    }
+  }
+}

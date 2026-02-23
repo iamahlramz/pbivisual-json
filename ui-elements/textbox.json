@@ -1,0 +1,17 @@
+{
+  "name": "Textbox — Reference Theme",
+  "visualStyles": {
+    "textbox": {
+      "*": {
+        "general": [{ "responsive": true, "keepLayerOrder": true }],
+        "content": [{
+          "fontColor": { "solid": { "color": "#252423" } },
+          "fontSize": 12,
+          "fontFamily": "Segoe UI"
+        }],
+        "background": [{ "show": false, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "color": { "solid": { "color": "#808080" } }, "radius": 0 }]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Shape — Reference Theme",
+  "visualStyles": {
+    "shape": {
+      "*": {
+        "general": [{ "responsive": true, "keepLayerOrder": true }],
+        "line": [{
+          "lineColor": { "solid": { "color": "#605E5C" } },
+          "transparency": 0,
+          "weight": 3,
+          "roundEdge": 0
+        }],
+        "fill": [{
+          "show": true,
+          "fillColor": { "solid": { "color": "#E6E6E6" } },
+          "transparency": 0
+        }],
+        "rotation": [{
+          "angle": 0
+        }],
+        "title": [{ "show": false }],
+        "background": [{ "show": false, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "color": { "solid": { "color": "#808080" } }, "radius": 0 }]
+      }
+    }
+  }
+}

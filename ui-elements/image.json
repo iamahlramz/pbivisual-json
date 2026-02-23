@@ -1,0 +1,16 @@
+{
+  "name": "Image — Reference Theme",
+  "visualStyles": {
+    "image": {
+      "*": {
+        "general": [{ "responsive": true, "keepLayerOrder": true }],
+        "imageScaling": [{
+          "scaling": "Fit"
+        }],
+        "title": [{ "show": false }],
+        "background": [{ "show": false, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "color": { "solid": { "color": "#808080" } }, "radius": 0 }]
+      }
+    }
+  }
+}
